@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1426937211 source:c:\users\akarsh hegde\desktop\working-cg\main.cpp
+	<stdio.h>
+	<windows.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"mouse.h"
+	"common.h"
+
+1420371291 c:\program files (x86)\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1426943075 c:\users\akarsh hegde\desktop\working-cg\mouse.h
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"common.h"
+	"displayfunc.h"
+
+1426928542 c:\users\akarsh hegde\desktop\working-cg\common.h
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+
+1426932714 c:\users\akarsh hegde\desktop\working-cg\displayfunc.h
+	"Welcome.h"
+	"mouse.h"
+	"common.h"
+	"intro.h"
+	"gyminside.h"
+	"room2.h"
+	"gymoutside.h"
+
+1426930942 c:\users\akarsh hegde\desktop\working-cg\welcome.h
+	"common.h"
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+
+1426930970 c:\users\akarsh hegde\desktop\working-cg\intro.h
+	"common.h"
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+
+1426952686 c:\users\akarsh hegde\desktop\working-cg\gyminside.h
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+	"common.h"
+	"mouse.h"
+
+1426946311 c:\users\akarsh hegde\desktop\working-cg\room2.h
+	"common.h"
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+
+1426946491 c:\users\akarsh hegde\desktop\working-cg\gymoutside.h
+	"common.h"
+	"mouse.h"
+	"gyminside.h"
+	<stdio.h>
+	<GL/glut.h>
+	<string.h>
+	<math.h>
+	<string.h>
+

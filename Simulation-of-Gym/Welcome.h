@@ -1,0 +1,39 @@
+#ifndef WELCOME_H
+#define WELCOME_H
+#include "common.h"
+#include <stdio.h>
+//#include<windows.h>
+#include<GL/glut.h>
+#include<string.h>
+#include<math.h>
+#include<string.h>
+void Welcome()
+{
+glClear(GL_COLOR_BUFFER_BIT);
+glColor3f(0.0,0.0,0.0);
+glColor3f(1.0,0.0,0.0);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"                  COMPUTER GRAPHICS PROJECT-SIMULATION OF GYM           ",1.5,9);
+    drawString(GLUT_BITMAP_TIMES_ROMAN_24,"                  ********************************************************      ",1.3,8.5);   
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"SUBMITTED BY",4.5,7);
+
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"Akarsh Hegde",2.3,6);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"4NM12CS012",8,6);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"Akhila Nayak",2.3,5.5);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"4NM12CS013",8,5.5);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"UNDER THE GUIDANCE OF",4,3.8);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"Mr. Pradeep Kanchan",4.5,3.3);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"Asst.Professor",4.5,2.8);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"NMAMIT , Nitte",4.5,2.3);
+//button
+glBegin(GL_LINE_LOOP);
+glColor3f(0.0,0.0,0.0);
+glVertex2f(9.18,1.0);
+glVertex2f(10,1.0);
+glVertex2f(10,1.5);
+glVertex2f(9.18,1.5);glEnd();
+glColor3f(0.0,0.0,0.0);
+drawString(GLUT_BITMAP_TIMES_ROMAN_24,"NEXT",9.25,1.2);
+//glFlush();
+glutSwapBuffers();
+}
+#endif
